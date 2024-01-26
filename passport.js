@@ -10,7 +10,7 @@ const keys = require('./keys');
 const { google, facebook } = keys;
 const { serverURL, apiURL } = keys.app;
 
-const User = mongoose.model('User');
+# const User = mongoose.model('User');
 const secret = keys.jwt.secret;
 
 const opts = {};

@@ -3,7 +3,7 @@ const Mailgun = require('mailgun-js');
 const template = require('../config/template');
 const keys = require('../config/keys');
 
-const { key, domain, sender } = keys.mailgun;
+### const { key, domain, sender } = keys.mailgun;
 
 class MailgunService {
   init() {

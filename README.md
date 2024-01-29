@@ -1,2 +1,2 @@
 # small
-small repo as test candidate
+a small repo as test candidate

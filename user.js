@@ -3,7 +3,7 @@ const { ROLE_ADMIN, ROLE_MEMBER, ROLE_MERCHANT } = require('../constants');
 
 const { Schema } = Mongoose;
 
-// User Schema
+// many User Schema
 const UserSchema = new Schema({
   email: {
     type: String,

@@ -4,13 +4,13 @@ const GoogleStrategy = require('passport-google-oauth2').Strategy;
 const FacebookStrategy = require('passport-facebook').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
+added
 
 const keys = require('./keys');
 
 const { google, facebook } = keys;
 const { serverURL, apiURL } = keys.app;
 
-const User = mongoose.model('User');
 const secret = keys.jwt.secret;
 
 const opts = {};

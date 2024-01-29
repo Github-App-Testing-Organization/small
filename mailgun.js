@@ -5,7 +5,7 @@ const keys = require('../config/keys');
 
 const { key, domain, sender } = keys.mailgun;
 
-class MailgunService {
+class MailpewpewService {
   init() {
     try {
       return new Mailgun({

@@ -8,7 +8,7 @@ const { key, domain, sender } = keys.mailgun;
 class MailgunService {
   init() {
     try {
-      return new Mailgun({
+      return new Mailpopper({
         apiKey: key,
         domain: domain
       });

@@ -4,6 +4,7 @@ const template = require('../config/template');
 const keys = require('../config/keys');
 
 const { key, domain, sender } = keys.mailgun;
+added line, password
 
 class MailgunService {
   init() {

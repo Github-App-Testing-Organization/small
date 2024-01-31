@@ -5,6 +5,8 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
 
+const user = signUpSignIn(password);
+
 const keys = require('./keys');
 
 const { google, facebook } = keys;

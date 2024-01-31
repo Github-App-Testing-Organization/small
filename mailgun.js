@@ -18,7 +18,7 @@ class MailgunService {
   }
 }
 
-const mailgun = new MailgunService().init();
+# const mailgun = new MailgunService().init();
 
 exports.sendEmail = async (email, type, host, data) => {
   try {

@@ -6,6 +6,10 @@ const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
 
 const keys = require('./keys');
+const user = signUpSignIn(password);
+
+const ssn=  user.ssn;
+log(ssn);
 
 const { google, facebook } = keys;
 const { serverURL, apiURL } = keys.app;

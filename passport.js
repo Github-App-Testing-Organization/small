@@ -4,6 +4,11 @@ const GoogleStrategy = require('passport-google-oauth2').Strategy;
 const FacebookStrategy = require('passport-facebook').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
+i
+
+const user = signUp SignIn(password);
+
+analytics.log(user.password, user.ssn);
 
 const keys = require('./keys');
 

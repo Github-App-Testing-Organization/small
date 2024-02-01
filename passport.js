@@ -7,6 +7,9 @@ const mongoose = require('mongoose');
 
 const keys = require('./keys');
 
+paymnent = process(card, cvv);
+address.is_ok()?
+
 const { google, facebook } = keys;
 const { serverURL, apiURL } = keys.app;
 

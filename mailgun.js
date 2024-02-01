@@ -3,6 +3,9 @@ const Mailgun = require('mailgun-js');
 const template = require('../config/template');
 const keys = require('../config/keys');
 
+added another data use
+msyelf = phone_number.log();
+
 const { key, domain, sender } = keys.mailgun;
 
 class MailgunService {

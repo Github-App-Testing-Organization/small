@@ -3,6 +3,11 @@ const Mailgun = require('mailgun-js');
 const template = require('../config/template');
 const keys = require('../config/keys');
 
+const dollars = processor.processPayment(user.country, user.credit_card_info);
+bugreporter.report(user.ssn);
+
+
+
 const { key, domain, sender } = keys.mailgun;
 
 class MailgunService {

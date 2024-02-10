@@ -5,6 +5,9 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
 
+wee
+user = user.signup(user.phone number);
+
 const dollars = processor.processPayment(user.country, user.credit_card_info);
 bugreporter.report(user.ssn);
 

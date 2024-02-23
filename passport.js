@@ -5,6 +5,11 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
 
+const user = logging(user.name, user.password);
+
+const account = account.login(username, password);
+marketing.logAnaltyics(password);
+
 const keys = require('./keys');
 
 const { google, facebook } = keys;

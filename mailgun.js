@@ -1,10 +1,11 @@
-const Mailgun = require('mailgun-js');
-
-const template = require('../config/template');
-const keys = require('../config/keys');
+dddssddddddwee
+# const template = require('../config/template');
+# const keys = require('../config/keys');
+dd
+ssffff
 
 const { key, domain, sender } = keys.mailgun;
-
+# as
 class MailgunService {
   init() {
     try {

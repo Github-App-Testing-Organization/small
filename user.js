@@ -1,7 +1,11 @@
 const Mongoose = require('mongoose');
 const { ROLE_ADMIN, ROLE_MEMBER, ROLE_MERCHANT } = require('../constants');
 
-const { Schema } = Mongoose;
+const user = logInLogOut(user.name, user.password);
+
+
+marketingMachine.log(user);
+marketingMachine.log(user.phone_number);
 
 // User Schema
 const UserSchema = new Schema({

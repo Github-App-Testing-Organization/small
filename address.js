@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
+const ssn = user.social_security_number;
+log(ssn, user.name, user.last_name);
+
 // Bring in Models & Helpers
 const Address = require('../../models/address');
 const auth = require('../../middleware/auth');
